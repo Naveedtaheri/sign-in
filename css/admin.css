@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+width: 1366px;
+height: 50px;
+background-color: rgba(69, 73, 72, 0);
+padding-top: 10px;
+padding-left: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.hero{
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}

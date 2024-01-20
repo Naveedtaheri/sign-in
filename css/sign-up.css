@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+	width: 1366px;
+	height: 651px;
+	background-color: rgb(4, 202, 176);
+	margin-top: 0px;
+	padding-top: 70px;
+}
+
+
+
+@media screen and (max-width:765px) {
+	.background{
+		width: 765px;
+		height: 760px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.sign-up{
+		width: 60vw;
+		margin-bottom: 0;
+		display: flex;
+		margin: 0 auto;
+	}
+}
+
+
+
+.sign-up h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 39, 6);
+    margin-bottom: 30px;
+}
+
+
+.sign-up{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 10px;
+}
+
+.sign-up input{
+    width: 300px;
+    height: 50px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    
+    }
+    .btn1{
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        background-color:rgb(151, 250, 126);
+        color: black;
+        font-size: 20px;
+    }
+    .btn1 :hover{
+        width: 320px;
+        height: 55px;
+        background-color:rgb(131, 236, 131) ;
+        
+        }
+.sign-up a{
+    text-align: center ;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign-up h5{
+font-size: small;
+margin-top: 10px;
+margin-left: 100px;
+margin-bottom: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+    
